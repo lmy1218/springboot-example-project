@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    active: dev
+  application:
+    name: springboot-example-api
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+    mapper:
+      ACCEPT_CASE_INSENSITIVE_ENUMS: true
+      accept-case-insensitive-properties: true
+
+logging:
+  file:
+    path: ./log
