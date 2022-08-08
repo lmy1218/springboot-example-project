@@ -13,3 +13,21 @@ spring:
 logging:
   file:
     path: ./log
+
+mybatis-plus:
+  mapper-locations: classpath*:mapping/*.xml
+  type-enums-package: com.yang.api.enums
+  global-config:
+    db-config:
+      id-type: AUTO #默认自增
+  configuration:
+    mapUnderscoreToCamelCase: true
+
+management:
+  endpoints:
+    web:
+      base-path: /
+  endpoint:
+    health:
+      show-details: always #显示健康检查详细信息，默认为never，即不显示。
+
