@@ -1,7 +1,8 @@
 package com.yang.api.validator;
 
 
-import com.meb.scrm.common.validator.impl.SortByValidator;
+
+import com.yang.api.validator.impl.SortByValidator;
 
 import javax.validation.Constraint;
 import javax.validation.Payload;

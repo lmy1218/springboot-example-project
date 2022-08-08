@@ -1,6 +1,7 @@
 package com.yang.api.validator;
 
-import com.meb.scrm.common.validator.impl.JsonStringValidator;
+
+import com.yang.api.validator.impl.JsonStringValidator;
 
 import javax.validation.Constraint;
 import javax.validation.Payload;
