@@ -1,0 +1,24 @@
+spring:
+  profiles:
+    active: dev
+  application:
+    name: springboot-example-xxljob
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+    mapper:
+      ACCEPT_CASE_INSENSITIVE_ENUMS: true
+      accept-case-insensitive-properties: true
+
+logging:
+  file:
+    path: ./log
+
+management:
+  endpoints:
+    web:
+      base-path: /
+  endpoint:
+    health:
+      show-details: always #显示健康检查详细信息，默认为never，即不显示。
+

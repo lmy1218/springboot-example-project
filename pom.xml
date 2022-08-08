@@ -12,6 +12,7 @@
         <module>springboot-example-common</module>
         <module>springboot-example-api</module>
         <module>springboot-example-mq</module>
+        <module>springboot-example-job</module>
     </modules>
 
     <properties>
